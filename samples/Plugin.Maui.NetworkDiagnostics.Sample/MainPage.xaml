@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plugin.Maui.NetworkDiagnostics.Sample.MainPage"
+             Title="Plugin.Maui.NetworkDiagnostics">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="12">
+            <Label Text="Plugin.Maui.NetworkDiagnostics" FontSize="22" FontAttributes="Bold" />
+            <Label Text="Production troubleshooting · not another network monitor"
+                   TextColor="Gray" />
+
+            <Label Text="API health URL" FontAttributes="Bold" Margin="0,8,0,0" />
+            <Entry x:Name="ApiEntry"
+                   Text="https://one.one.one.one/"
+                   Keyboard="Url"
+                   Placeholder="https://api.myapp.com/health" />
+
+            <Button x:Name="RunButton" Text="Run diagnostics" Clicked="OnRunClicked" />
+
+            <Label x:Name="SummaryLabel"
+                   FontSize="16"
+                   FontAttributes="Bold"
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="Report" FontAttributes="Bold" Margin="0,8,0,0" />
+            <Label x:Name="ReportLabel"
+                   FontFamily="Courier New"
+                   FontSize="14"
+                   LineBreakMode="WordWrap" />
+
+            <Label Text="Layer detail" FontAttributes="Bold" Margin="0,8,0,0" />
+            <Label x:Name="DetailLabel"
+                   FontSize="13"
+                   TextColor="Gray"
+                   LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

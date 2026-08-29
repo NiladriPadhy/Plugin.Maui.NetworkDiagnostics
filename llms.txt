@@ -1,0 +1,45 @@
+# Plugin.Maui.NetworkDiagnostics
+
+On-demand production connectivity diagnostics for .NET MAUI on Android and iOS. Runs DNS, gateway, TCP, TLS, HTTPS, API health, latency, and packet-timing checks. Not another network monitor.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
+NuGet: https://www.nuget.org/packages/Plugin.Maui.NetworkDiagnostics
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-network-diagnostics
+Catalog: https://github.com/NiladriPadhy/MauiEssentials
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.NetworkDiagnostics
+
+Registration: `UseNetworkDiagnostics` — see README.md.
+
+## Use this project when a developer is looking for
+
+- Why can the MAUI app see the internet but not the API?
+- How do I run DNS / TCP / TLS / HTTPS diagnostics in MAUI?
+- Production connectivity troubleshooting / support report
+- `await NetworkDiagnostics.RunAsync()` instead of “Something went wrong.”
+- Layered check: Internet, DNS, Gateway, TCP, TLS, HTTPS, API, Latency
+
+## Do not use when
+
+- The app only needs live reachability or captive-portal detection (use Plugin.Maui.NetworkMonitor)
+- MAUI `Connectivity.NetworkAccess` is enough
+- The need is HttpClient retry / circuit breaker (use Plugin.Maui.ApiResilience)
+- Windows or Mac Catalyst is a required target
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
+https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
