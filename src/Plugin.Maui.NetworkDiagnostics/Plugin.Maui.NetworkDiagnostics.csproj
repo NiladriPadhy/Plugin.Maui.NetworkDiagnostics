@@ -29,8 +29,8 @@
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.0</Version>
-    <PackageReleaseNotes>Initial release: on-demand production connectivity diagnostics — DNS, gateway, TCP, TLS, HTTPS, API health, latency, packet timing, and a support-ready summary.</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Publish a matching symbol package (snupkg) with this build.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
