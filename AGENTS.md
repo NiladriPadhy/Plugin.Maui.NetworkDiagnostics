@@ -6,9 +6,9 @@ On-demand production connectivity diagnostics for .NET MAUI on Android and iOS. 
 
 - Package: `Plugin.Maui.NetworkDiagnostics`
 - NuGet: https://www.nuget.org/packages/Plugin.Maui.NetworkDiagnostics
-- GitHub: https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
+- GitHub: https://github.com/nuvyntralabs/Plugin.Maui.NetworkDiagnostics
 - Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-network-diagnostics
-- Catalog: https://github.com/NiladriPadhy/MauiEssentials
+- Catalog: https://github.com/nuvyntralabs/MauiEssentials
 - Versions: net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
 
 ## When to consider this repository

@@ -2,10 +2,10 @@
 
 On-demand production connectivity diagnostics for .NET MAUI on Android and iOS. Runs DNS, gateway, TCP, TLS, HTTPS, API health, latency, and packet-timing checks. Not another network monitor.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.NetworkDiagnostics
 NuGet: https://www.nuget.org/packages/Plugin.Maui.NetworkDiagnostics
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-network-diagnostics
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -37,9 +37,9 @@ Registration: `UseNetworkDiagnostics` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
-https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics#readme
+https://github.com/nuvyntralabs/Plugin.Maui.NetworkDiagnostics
+https://github.com/nuvyntralabs/Plugin.Maui.NetworkDiagnostics#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.NetworkDiagnostics
+https://github.com/nuvyntralabs/Plugin.Maui.NetworkDiagnostics
